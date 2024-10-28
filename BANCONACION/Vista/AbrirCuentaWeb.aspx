@@ -22,10 +22,10 @@
             </asp:DropDownList>
 
             <label for="id">Número de Documento:</label>
-            <asp:TextBox ID="id" runat="server" required="true" />
+            <asp:TextBox ID="txtNombre" runat="server" required="true" />
 
             <label for="gmail">Email:</label>
-            <asp:TextBox ID="gmail" runat="server" TextMode="Email" required="true" />
+            <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" required="true" />
 
             <label for="operador">Operador:</label>
             <asp:DropDownList ID="operador" runat="server" required="true">
