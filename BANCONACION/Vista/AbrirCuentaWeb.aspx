@@ -44,7 +44,7 @@
                 Acepto los términos y condiciones
             </label>
 
-            <asp:Button ID="botonContinuar" runat="server" Text="Siguiente" Enabled="false" Height="45px" OnClick="botonContinuar_Click" Width="138px" />
+            <asp:Button ID="botonContinuar" runat="server" Text="Siguiente" Enabled="false" Height="48px" OnClick="botonContinuar_Click" Width="138px" />
         </div>
     </form>
 
