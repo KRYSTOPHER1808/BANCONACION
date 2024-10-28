@@ -179,6 +179,8 @@
     <Content Include="Vista\ACBGmail.aspx" />
     <Content Include="Vista\Estilos\ACBGmail.css" />
     <Content Include="Vista\Estilos\EstilosAbrirCuentaWeb.css" />
+    <Content Include="Vista\Estilos\TYC.css" />
+    <Content Include="Vista\TYC.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -224,6 +226,13 @@
     </Compile>
     <Compile Include="Vista\ACBGmail.aspx.designer.cs">
       <DependentUpon>ACBGmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\TYC.aspx.cs">
+      <DependentUpon>TYC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\TYC.aspx.designer.cs">
+      <DependentUpon>TYC.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
