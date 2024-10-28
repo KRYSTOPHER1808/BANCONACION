@@ -176,6 +176,7 @@
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Vista\AbrirCuentaWeb.aspx" />
+    <Content Include="Vista\ACBGmail.aspx" />
     <Content Include="Vista\Estilos\EstilosAbrirCuentaWeb.css" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="Vista\AbrirCuentaWeb.aspx.designer.cs">
       <DependentUpon>AbrirCuentaWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ACBGmail.aspx.cs">
+      <DependentUpon>ACBGmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\ACBGmail.aspx.designer.cs">
+      <DependentUpon>ACBGmail.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
