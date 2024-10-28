@@ -1,0 +1,101 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+    color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="tel"]:focus,
+    select:focus {
+        border-color: #2980b9;
+        outline: none;
+    }
+
+.clase {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+    .clase input {
+        margin-right: 10px;
+    }
+
+    .clase label {
+        color: #2980b9;
+        font-weight: normal;
+    }
+
+asp\:Button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2980b9;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    asp\:Button:disabled {
+        background-color: #bdc3c7;
+        cursor: not-allowed;
+    }
+
+    asp\:Button:hover:enabled {
+        background-color: #3498db;
+    }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+        font-size: 14px;
+    }
+
+    asp\:Button {
+        font-size: 16px;
+    }
+}
