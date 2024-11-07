@@ -11,7 +11,7 @@ namespace BANCONACION.Vista
 {
 
 
-    public partial class WebForm1
+    public partial class Verificacion
     {
 
         /// <summary>
@@ -24,93 +24,120 @@ namespace BANCONACION.Vista
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control tipoDocumento.
+        /// Control lblituloVeri.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList tipoDocumento;
+        protected global::System.Web.UI.WebControls.Label lblituloVeri;
 
         /// <summary>
-        /// Control txtNombre.
+        /// Control RBNumero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombre;
+        protected global::System.Web.UI.WebControls.RadioButton RBNumero;
 
         /// <summary>
-        /// Control lblNumeroError.
+        /// Control RBEmail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumeroError;
+        protected global::System.Web.UI.WebControls.RadioButton RBEmail;
 
         /// <summary>
-        /// Control txtEmail.
+        /// Control PNLEnviarSMS.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.Panel PNLEnviarSMS;
 
         /// <summary>
-        /// Control lblEmailError.
+        /// Control lblEnviarSMS.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmailError;
+        protected global::System.Web.UI.WebControls.Label lblEnviarSMS;
 
         /// <summary>
-        /// Control operador.
+        /// Control PNLEnviarEmail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList operador;
+        protected global::System.Web.UI.WebControls.Panel PNLEnviarEmail;
 
         /// <summary>
-        /// Control numero.
+        /// Control lblEnviarEmail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox numero;
+        protected global::System.Web.UI.WebControls.Label lblEnviarEmail;
 
         /// <summary>
-        /// Control lblNumeroError2.
+        /// Control BTNEnviar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumeroError2;
+        protected global::System.Web.UI.WebControls.Button BTNEnviar;
 
         /// <summary>
-        /// Control terminos.
+        /// Control PNLCodigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox terminos;
+        protected global::System.Web.UI.WebControls.Panel PNLCodigo;
 
         /// <summary>
-        /// Control botonContinuar.
+        /// Control lblTituloCodigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button botonContinuar;
+        protected global::System.Web.UI.WebControls.Label lblTituloCodigo;
+
+        /// <summary>
+        /// Control TXTCodigo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TXTCodigo;
+
+        /// <summary>
+        /// Control lblVolverAEnviarCodigo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblVolverAEnviarCodigo;
+
+        /// <summary>
+        /// Control BTNContinuar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BTNContinuar;
     }
 }

@@ -22,10 +22,15 @@
             </asp:DropDownList>
 
             <label for="id">Número de Documento:</label>
-            <asp:TextBox ID="txtNombre" runat="server" required="true" />
+            <asp:TextBox ID="txtNombre" runat="server" required="true" MaxLength="8" OnTextChanged="txtNombre_TextChanged"
+                TextMode="SingleLine" inputmode="numeric" pattern="[0-9]*" AutoPostBack="true"/>
+            <asp:Label ID="lblNumeroError" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
 
             <label for="gmail">Email:</label>
-            <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" required="true" />
+            <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" required="true" 
+                         AutoPostBack="true" OnTextChanged="txtEmail_TextChanged" CssClass="form-control" />
+            <asp:Label ID="lblEmailError" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
+
 
             <label for="operador">Operador:</label>
             <asp:DropDownList ID="operador" runat="server" required="true">
@@ -36,8 +41,9 @@
             </asp:DropDownList>
 
             <label for="numero">Número de Celular:</label>
-            <asp:TextBox ID="numero" runat="server" TextMode="SingleLine" MaxLength="9" required="true" pattern="[0-9]{9}" inputmode="tel" />
-
+            <asp:TextBox ID="numero" runat="server" TextMode="SingleLine" MaxLength="9" required="true" pattern="[0-9]{9}" inputmode="numeric" OnTextChanged="numero_TextChanged" 
+                AutoPostBack="true"/>
+            <asp:Label ID="lblNumeroError2" runat="server" CssClass="text-danger" Visible="false"></asp:Label>
 
             <label class="clase">
                 <asp:CheckBox ID="terminos" runat="server" OnCheckedChanged="habilitarBoton" AutoPostBack="true" />
@@ -47,6 +53,7 @@
             <asp:Button ID="botonContinuar" runat="server" Text="Siguiente" Enabled="false" Height="48px" OnClick="botonContinuar_Click" Width="138px" />
         </div>
     </form>
+
 
 </body>
 </html>

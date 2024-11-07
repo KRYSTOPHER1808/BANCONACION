@@ -50,7 +50,7 @@ select {
 .clase {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 500px;
 }
 
     .clase input {
@@ -98,4 +98,11 @@ asp\:Button {
     asp\:Button {
         font-size: 16px;
     }
+}
+.text-danger {
+    color: red; /* Rojo intenso */
+    font-size: 0.875rem; /* Tamaño de fuente ligeramente más pequeño */
+    font-weight: bold; /* Negrita */
+    margin-top: 5px; /* Espacio superior para separarlo del campo */
+    display: block; /* Mostrar en línea independiente */
 }
